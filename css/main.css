@@ -1,0 +1,60 @@
+/* MAIN STYLES */
+
+body {
+	background: #000;
+}
+
+.main {
+	background: #fff;
+	margin-top: 110px;
+	padding-left: 50px;
+	min-width: 1200px;
+	height: 500px;
+	position: relative;
+	z-index: 1;
+}
+
+* {
+	outline: 1px solid red;
+}
+
+.ryu {
+	float: left;
+}
+
+.ryu, .ryu-still, .ryu-ready, .ryu-hadoken {
+	width: 423px;
+	height: 494px;
+}
+
+.ryu-ready, .ryu-hadoken {
+	display: none;
+}
+
+.hadoken, .ryu-still, .ryu-ready, .ryu-hadoken {
+	background-repeat: no-repeat;
+}
+
+.ryu-still {
+	background: url('../images/ryu1-standing-still.png');
+}
+
+.ryu-ready {
+	background: url('../images/ryu1-ready-position.gif');
+}
+
+.ryu-hadoken {
+	background: url('../images/ryu1-throwing-hadouken.png');
+}
+
+.hadoken {
+	background: url('../images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none;
+	float: left;
+	position: relative;
+	top: 10.5em;
+	left: -10em;
+	z-index: 10;
+}
